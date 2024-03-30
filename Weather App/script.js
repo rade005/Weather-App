@@ -11,8 +11,7 @@ async function checkW(location) {
     `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`
   );
   const waitingData = await weatherData.json();
-  //console.log(waiting.weather[0].main);
-
+  
   if (weatherData.status === 404) {
     alert("City not found. Please enter correct city name");
   }
