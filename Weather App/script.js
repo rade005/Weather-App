@@ -25,11 +25,11 @@ async function checkW(location) {
   )} Km/h`;
 
   if (waitingData.weather[0].main === "Clear") {
-    weatherImage.src = "/Images/Clear.jpg";
+    weatherImage.src = "Images/Clear.jpg";
   } else if (waitingData.weather[0].main === "Clouds") {
-    weatherImage.src = "/Images/Clouds.jpg";
+    weatherImage.src = "Images/Clouds.jpg";
   } else if (waitingData.weather[0].main === "Rain") {
-    weatherImage.src = "/Images/Rain.jpg";
+    weatherImage.src = "Images/Rain.jpg";
   } else if (waitingData.weather[0].main === "Snow") {
     weatherImage.src = "Images/Snow.jpg";
   } else if (waitingData.weather[0].main === "Haze") {
