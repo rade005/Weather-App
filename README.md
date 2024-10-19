@@ -1,37 +1,28 @@
 
 Weather App
 Jednostavna aplikacija za praćenje vremenske prognoze napravljena koristeći vanilla JavaScript.
-O projektu
+O projektu:
 Aplikacija omogućava korisnicima da:
 
 Pretražuju vremenske uslove po gradovima
 Vide trenutnu temperaturu
 Vide dodatne informacije o vremenskim uslovima
 
-Tehnologije
-
+Tehnologije:
 HTML5
 CSS3
 JavaScript
 OpenWeatherMap API
 
-Kako pokrenuti aplikaciju
-
+Kako pokrenuti aplikaciju:
 Preuzmite ili klonirajte projekat
 Otvorite index.html u vašem pretraživaču
 
-Struktura projekta
-Copyweather-app/
-  ├── index.html
-  ├── style.css
-  ├── script.js
-  └── README.md
-Kako koristiti aplikaciju
-
+Kako koristiti aplikaciju:
 Ukucajte ime grada u polje za pretragu
 Kliknite na dugme za pretragu
 Videćete trenutne vremenske uslove za taj grad
 
-Autor
+Autor:
 Rade Dobraš
 GitHub: rade/005
